@@ -1,0 +1,32 @@
+# === Core Libraries ===
+
+torch==2.0.1
+# PyTorch: deep learning framework used to define and train the PINN model
+
+torchvision==0.15.2
+# Provides datasets, transforms, and models for vision; required for compatibility with PyTorch
+# (not directly used in your code, but often bundled with torch installations)
+
+numpy==1.24.4
+# Fundamental package for numerical computing with arrays and linear algebra
+# Used in FD solver, meshgrid creation, and evaluation
+
+scipy==1.10.1
+# Scientific computing utilities — required if you later use solvers or signal processing
+# (not strictly necessary unless you expand your model)
+
+matplotlib==3.7.1
+# Main library for plotting heatmaps, line plots, 3D surface visualizations, etc.
+
+# === Optional: Jupyter Support (if using the notebook) ===
+
+notebook==6.5.4
+# Jupyter Notebook (Google colab) interface — required only if you want to run the .ipynb version
+
+# === Environment Info (Optional, for full reproducibility) ===
+# You may include the Python version in a separate environment.yml if using conda
+# e.g., python=3.10
+
+# === How to use ===
+# To install all dependencies from this file, run:
+# pip install -r requirements.txt
