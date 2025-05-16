@@ -10,7 +10,7 @@ Original file is located at
 #block 1
 # Install PyTorch, torchvision, and matplotlib if not already installed.
 # The `--quiet` flag suppresses the verbose output for a cleaner log.
-!pip install --quiet torch torchvision matplotlib
+#!pip install --quiet torch torchvision matplotlib
 
 # 📚 Import core libraries:
 import torch                       # Main PyTorch package for tensor operations and automatic differentiation
